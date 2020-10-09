@@ -22,5 +22,16 @@ h1 {
 h2 {
     color: fuchsia; font-size: 12 em;
 }
-.evenrow {background-color: #ffa1fd;}
 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #ffa1fd;}
