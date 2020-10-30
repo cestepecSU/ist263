@@ -6,9 +6,9 @@ body{
 }
 nav {background-color: #dfe2ed}
 
-nav a {color: #f046ba;}
+nav a {color: #72024f;}
 
-nav a:hover {background-color: #ed91d0;}
+nav a:hover {background-color: #d647a9;}
 
 nav {padding: 10px}
 
@@ -17,10 +17,10 @@ nav {margin-bottom: 30px}
 a:link {color: #7d096d}
 
 h1 {
-    color: #ff3d98; font-size: 14 em;
+    color: #6e0637; font-size: 14 em;
 }
 
 h2 {
-    color: #ff3d98; font-size: 12 em;
+    color: #b80056; font-size: 12 em;
 }
 
