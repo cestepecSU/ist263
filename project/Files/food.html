@@ -7,9 +7,23 @@
 <link rel= "stylesheet" href="stylesproject.css">
 <style> 
   body {font-family: Arial, Helvetica, sans-serif;
-      background-color: #47ca4d;
+      background-color: #c0f3c3;
       color: rgb(0, 0, 0);
+      font-size: 16px;
   }
+  h1 {
+    color: #000000;
+    font-size: 24px;
+  }
+  h2{
+    color: #ffffff;
+    font-size: 24px;
+  }
+  h3{
+    color: #fafafa;
+    font-size: 24px;
+  }
+  color
   nav {
       background-color:rgb(2, 0, 97);
       padding: 10px;
@@ -19,26 +33,81 @@
       background-color:blueviolet
   }
   nav a {
-      color: whitesmoke;
+      color: rgb(136, 111, 247);
   }
   .quote {float:right;}
-  .homebanner {max-width: 100%}
+  .homebanner {max-width: 100%; height: auto; }
 
   @media only screen and (max-width: 600px)
    {
-      body {background-color: #057229;
+      body {background-color: #5df38f;
           padding: 50px;
           }
+        .aboutapa {
+          flex: wrap;
+          padding:50px;
+        }
+        .spaghetti{
+          flex:auto;
+          padding: 50px;
+        }
+        .eggplant{
+          flex:auto;
+          padding: 50px;
+        }
 
   }  
   .aboutapa {
-    margin: 0;
+    border: 3px mediumseagreen;
+    margin: 4px;
     padding: 5px;
     background-color: cyan;
     color: darkgreen;
+    flex: wrap;
+    text-align: center;
 
   }
-   
+  .spaghetti {
+    border: 3px mediumblue;
+    margin: 4px;
+    padding: 20px;
+    background-color: #3acde0;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    float: wrap;
+  }
+  .eggplant {
+    border:3px mediumturquoise;
+    margin: 4px;
+    padding: 20px;
+    background-color: #165eb1;
+    color: rgb(138, 219, 230);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    float: wrap;
+    
+  }
+  .end {
+    border: 3px mintcream;
+    margin: 0px;
+    padding: 10px;
+    background-color: #91bae9;
+    color: rgb(6, 1, 75);
+    flex: wrap;
+    text-align: center;
+  }
+  footer {
+    border: 3px mistyrose;
+    margin: 0px;
+    padding: 3px;
+    background-color: #c0fac3;
+    color: rgb(0, 0, 0);
+    flex: wrap;
+    text-align: center;
+  }
 </style>  
 </head>
 <body>
@@ -55,7 +124,7 @@
 <section>
      <article class="aboutapa">
        
-     <h1>About Apa</h1>
+     <h1>About APA</h1>
         <p>
           <a id="content"></a>
             <strong>Growing up my grandpa made the most amazing dishes.</strong>
@@ -64,18 +133,18 @@
             <br> Now he cooks for my family, making amazing dishes that I’ve always wanted to recreate. 
             <br>Now living on my own I have been recreating his dishes with his help. 
             <br>The two recipes that I’ve included I was able to make on my own from my grandfather’s instructions. 
-            <strong>I hope you enjoy making this food as much as I have.</strong>  
+            <br> <strong>I hope you enjoy making this food as much as I have.</strong>  
         </p>
       </div>
-     </article class="spaghetti">
-          
+     </article>
+      
+     <article class="spaghetti">
      <h2>
         Apa’s Spaghetti
     </h2>
-        <article>
           <header>
             <p>
-              Sunday Night Spaghetti
+              <b>Sunday Night Spaghetti</b>
             </p>
           </header>
           <p>
@@ -107,14 +176,18 @@ Take your oil and butter, melt this in a large pan. Add your chopped garlic.
 <br>Add a little water and the tomato sauce, stir to combine. Add beef bullion. Boil on low heat for at least one hour. 
 <br>Taste your meat sauce when cooked.
 <br>When its finished cooking serve immediately atop your pasta, adding grated parmasean cheese. 
-<br>Add garlic bread to your dish for your sauce. Enjoy!
+<br>Add garlic bread to your dish for your sauce. 
+<br> <b>Enjoy!</b>
 
           </p>
         </article>
         <article class="eggplant">
+          <h3>
+            Appa's Eggplant Omelets
+          </h3>
           <header>
             <p>
-               Appa's Eggplant omelets 
+               Tortang Talong (Filipino Eggplant Omelet)
             </p>
           </header>
           <p>
@@ -130,16 +203,21 @@ Take your oil and butter, melt this in a large pan. Add your chopped garlic.
                 <li>Pepper- to taste</li>
                 <li>Egg- 1 </li>
                 <li>Beef- 1 pound</li>
-        
-                <br>
-     <b>Roasting an eggplant instuctions</b>
-     <br>
-    <br> 1.	Prepare the oven: Arrange a rack in the middle of the oven, then line it with foil. (Alternatively, place a baking sheet on the rack to catch any drips.) Heat the oven to 350°F.
+              </ul>
+            </p>
+            <p>
+  <header>
+    <b>Instructions</b>
+  </header>
+  <br>
+    1.	Prepare the oven: Arrange a rack in the middle of the oven, then line it with foil. (Alternatively, place a baking sheet on the rack to catch any drips.) Heat the oven to 350°F.
     <br> 2. Rinse and dry the eggplant: Rinse the eggplant under cool running water, then pat dry with a clean kitchen towel.
     <br> 3.	Bake the eggplant: Place the eggplant directly on the middle rack and bake until incredibly tender and the skin is wrinkly, 45 minutes to 1 hour.
     <br> 4. Cool and peel: Use tongs to remove the eggplant to a cutting board or wire rack and let cool. Once cool enough to handle, cut the eggplant in half and use a spoon to scoop out the flesh.
+    <br>
 
     <b>Recipe</b>
+
     <br>
     Heat a pan on low, add your butter and onion. Add ground beef and break it up.
     <br> Chop your onion and add it to your ground beef. Once cooked put this on the side. 
@@ -151,16 +229,20 @@ Take your oil and butter, melt this in a large pan. Add your chopped garlic.
           </p>
         
        </article>
+       <article class= "end">
         <div>
-          <img src="../media/Apa1.jpg" alt= "Man with apples"> 
+          <img src="../media/Apa1.jpg" alt= "Man with apples" width="300" height="500"> 
              </div>
         <aside>
-          <p>
-            All these recipes were written from Nestor Conejero's directions
-          </p>
+          <h4>
+            All of these recipes were written from Nestor Conejero's directions. 
+            <br>
+            <b>We hope you enjoy making them!</b>
+          <h4>
         </aside>
       </section>
-  
+    </article>
+
       <footer>
         "Cooking is like love. It should be entered into with abandon or not at all" - Harriet Van Horne
         &copy; 2020
