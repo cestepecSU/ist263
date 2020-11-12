@@ -10,7 +10,16 @@
 <style> 
   body {font-family: Arial, Helvetica, sans-serif;
       background-color: #efefef;
-      color: rgb(238, 138, 155);
+      color:rgb(0, 0, 0);
+      font-size: 16px;
+  }
+  h1 {
+    color: #850068;
+    font-size: 24px;
+  }
+  h2{
+    color: #640057;
+    font-size: 40px;
   }
   nav {
       background-color:plum;
@@ -28,11 +37,72 @@
 
   @media only screen and (max-width: 600px)
    {
+      body {background-color: #5df38f;
+          padding: 50px;
+          }
+        .aboutapa {
+          flex: wrap;
+          padding:50px;
+        }
+        .spaghetti{
+          flex:auto;
+          padding: 50px;
+        }
+        .eggplant{
+          flex:auto;
+          padding: 50px;
+        }
+  }  
       body {background-color: pink;
           padding: 50px;
           }
+          .end {
+    
+          }
+   .intro {
+    border: 3px rgb(255, 201, 255);
+    margin: 0px;
+    padding: 10px;
+    background-color: #fcacff;
+    color: rgb(0, 0, 0);
+    flex: wrap;
+    text-align: center;
 
-  }    
+    }
+   
+  .moscow {
+    border: 3px rgb(255, 182, 243);
+    margin: 4px;
+    padding: 20px;
+    background-color: #f794f7;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    float: wrap;
+  }
+  .watermelon {
+    border:3px rgb(255, 145, 222);
+    margin: 4px;
+    padding: 20px;
+    background-color: #ff88c3;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    float: wrap;
+    
+  
+  }
+  footer {
+    border: 3px mistyrose;
+    margin: 0px;
+    padding: 3px;
+    background-color: #ff3460;
+    color: rgb(255, 255, 255);
+    flex: wrap;
+    text-align: center;
+  }   
   </style>  
 
 </head>
@@ -42,6 +112,7 @@
     
 </header>
 <body>
+  
   <a id="skip-to-content"href="#content">Skip to Content</a>
         
     <nav>
@@ -50,21 +121,28 @@
         <a href="cocktails.html">Cocktails</a> |
     </nav>
 <script src="js/script.js"></script>
+<section>
+  <article class="intro"></a>
+
+
 <h1>
     Cameron's Cocktails 
   </h1>
 
 <p>
   <a id="content"></a>
-    Over the Summer My best friend and I made cocktails for the two of us and my mother. 
+    Over the Summer my best friend and I made cocktails for the two of us and my mother. 
     <br> We had a lot of fun creating these so I wanted to share our fun recipes and the best time to enjoy them. 
 </p>
+</section>
+</article>
 
 <section>
+  <article class="moscow">
   <h2>
-    Recipes
+    <strong> Recipes</strong>
   </h2>
-  <article>
+  
     <header>
       <p>
           <b>Moscow Mule</b>
@@ -100,7 +178,7 @@
         <img src="../media/Moscow_Mule.jpg" alt= "moscow-mule-cocktail"/> 
            </div>
     </p>
-  
+  </article>
 <footer>
     "No amount of physical contact could match the healing powers of a well made cocktail." - David Sedaris
     &copy; 2020

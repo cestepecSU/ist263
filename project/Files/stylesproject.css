@@ -1,0 +1,52 @@
+
+.aboutapa {
+  border: 3px rgb(208, 253, 229);
+  margin: 4px;
+  padding: 5px;
+  background-color: rgb(175, 255, 255);
+  color: rgb(2, 37, 2);
+  flex: wrap;
+  text-align: center;
+
+}
+.spaghetti {
+  border: 3px rgb(126, 126, 241);
+  margin: 4px;
+  padding: 20px;
+  background-color: #bbf3fa;
+  color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  float: wrap;
+}
+.eggplant {
+  border:3px rgb(145, 255, 251);
+  margin: 4px;
+  padding: 20px;
+  background-color: #c2deff;
+  color: rgb(4, 28, 31);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  float: wrap;
+  
+}
+.end {
+  border: 3px mintcream;
+  margin: 0px;
+  padding: 10px;
+  background-color: #9fffdf;
+  color: rgb(6, 1, 75);
+  flex: wrap;
+  text-align: center;
+}
+footer {
+  border: 3px mistyrose;
+  margin: 0px;
+  padding: 3px;
+  background-color: #f5f5f8;
+  color: rgb(0, 0, 0);
+  flex: wrap;
+  text-align: center;
+}
