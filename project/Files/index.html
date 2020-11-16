@@ -7,48 +7,56 @@
 <link rel= "stylesheet" href="stylesproject.css">
 <style> 
   body {font-family: Arial, Helvetica, sans-serif;
-      background-color: #fffab9;
+      background-color: #fcfae4;
       color:rgb(0, 0, 0);
       font-size: 16px;
   }
   h1 {
-    color: #035000;
+    color: #000000;
     font-size: 24px;
   }
   h2{
-    color: #0fbba4;
+    color: #000000;
     font-size: 40px;
   }
   nav {
-      background-color:plum;
+      background-color:rgb(253, 203, 128);
       padding: 10px;
       margin-bottom: 30px;
   }
   nav a:hover {
-      background-color:rgb(107, 243, 125) 
+      background-color:rgb(107, 227, 243) 
   }
   nav a {
-      color: whitesmoke;
+      color: rgb(0, 0, 0);
   }
   .quote {float:right;}
   .homebanner {max-width: 100%}
 
   @media only screen and (max-width: 600px)
    {
-      body {background-color: #5df38f;
+      body {background-color: #dfffd1;
           padding: 50px;
           }
-        .aboutapa {
+        .form {
           flex: wrap;
           padding:50px;
+          border: 3px rgb(245, 255, 190);
+          margin: 0px;
+          background-color: #eca757;
+          color: rgb(0, 0, 0);
+          flex: wrap;
+          text-align: center;
         }
-        .spaghetti{
+        .intro{
           flex:auto;
           padding: 50px;
-        }
-        .eggplant{
-          flex:auto;
-          padding: 50px;
+          border: 3px rgb(245, 255, 190);
+          margin: 0px;
+          background-color: #eca757;
+          color: rgb(0, 0, 0);
+          flex: wrap;
+          text-align: center;
         }
   }  
       
@@ -56,21 +64,61 @@
     border: 3px rgb(245, 255, 190);
     margin: 0px;
     padding: 3px;
-    background-color: #ffe347;
+    background-color: #eca96a;
     color: rgb(0, 0, 0);
     flex: wrap;
     text-align: center;
   }
+  .form {
+          flex: wrap;
+          padding:50px;
+          border: 3px rgb(252, 255, 233);
+          margin: 0px;
+          background-color: #ffb29b;
+          color: rgb(0, 0, 0);
+          flex: wrap;
+          text-align: center;
+        }
+        .intro{
+          flex:auto;
+          padding: 50px;
+          border: 3px rgb(255, 255, 255);
+          margin: 0px;
+          background-color: #ffdfa3;
+          color: rgb(0, 0, 0);
+          flex: wrap;
+          text-align: center;
+        }
+        .intro2{
+          flex:auto;
+          padding: 50px;
+          border: 3px rgb(255, 255, 255);
+          margin: 0px;
+          background-color: #fcf48a;
+          color: rgb(0, 0, 0);
+          flex: wrap;
+          text-align:center;
+        }
         
     </style>  
 </head>
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="food.html">Food</a> |
+  <a href="cocktails.html">Cocktails</a> |
+</nav>
+<header>
+  <img src="../media/title.jpg" class= "homebanner" alt="board-memories"/> 
+</header>
 <body>
     <a id="skip-to-content"href="#content">Skip to Content</a>
         
     <header>
-        <img src="/project/media/Cameron.jpg" class= "homebanner" alt="Student Cameron Stepec"> 
+        <img src="/project/media/Cameron.jpg" class= "homebanner" alt="family"> 
     </header>
 
+    <section>
+  <article class="intro">
         <h1> Cameron's Cocktails and Apa's Recipes</h1>
 <p>
     <a id="content"></a>
@@ -78,31 +126,69 @@
      He cooks with lots of love for the people he loves. 
      <br>I wanted to make this website with all the delicious recipes he has given me for when I try and make his food. 
      <br>I also wanted to include my cocktail recipes that I made over the summer with my friends at my grandpas home that made our summer so wonderful. 
-     <strong>Thank you for visiting this website.</strong> 
+     <strong><br>Thank you for visiting this website.</strong> 
+</article>
 
+<article class="intro2">
 <h2> Content</h2>
 <p>
 This website will contain the following information located on the Food and Cocktails tabs
 </p>
-<h3>Content</h3> 
+<h3>Tabs</h3> 
 <p>
     <a id="content"></a>
-    <ul>
-        <li>Apa's Recipes- Food</li>
-        <li>Cameron's Cocktails- Cocktails</li>
-      </ul>
+    <br>
+        Apa's Recipes- Food
+      <br>
+        Cameron's Cocktails- Cocktails
+      
 </p>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="food.html">Food</a> |
-        <a href="cocktails.html">Cocktails</a> |
-    </nav>
-<p>Cameron's Cocktails and Apa's Recipes</p>
-<footer>
-    "Food is the ingredient that binds us together" - Unknown
-    &copy; 2020
-  </footer>
+    
+</article>
+  <p> 
+    <section>
+      <article class="form">
+        <h3>
+          Leave us a comment!
+        </h3>
+  <form action= "mailto:cestepec@syr.edu" method= "post">      
+    
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" name="firstname"><br>
 
+    How would you like Cameron to reach you?
+    <label for="email">Email</label>
+    <input type="radio" id="email" name="email" value="email">
+    <label for="phone">Phone</label>
+    <input type="radio" id="phone" name="phone" value="phone">
+    <br>
+
+    <label for="school">Are you a student?</label>
+    <input type="checkbox" id="school" name="school" value="yes"> yes
+    <br>
+
+    <label for="year">Year:</label>
+    <select id="year" name="year">
+        <option value="Freshman">Freshman</option>
+        <option value="Sophomore">Sophomore</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+    </select>
+    <br>
+
+    <label for="comment">Comment</label>
+    <br>
+    <textarea id="comment" name="comment" rows="4" cols="50">
+    </textarea><br>
+
+    <input type="submit" value="Send Form">
+  </article>
+</form>
+</p>
+<footer>
+  "Food is the ingredient that binds us together" - Unknown
+  &copy; 2020
+</footer>
 </body>
 </html>
 
