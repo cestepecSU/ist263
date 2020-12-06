@@ -8,11 +8,6 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-<script>
-  function ThirdFunction() {
-    alert('Third Alert');
-  }
-</script>
 <style> 
   body {font-family: 'Montserrat', sans-serif;
       background-color: #fcfae4;
@@ -46,27 +41,17 @@
       body {background-color: #dfffd1;
           padding: 50px;
           }
-        .form {
-          flex: wrap;
-          padding:50px;
-          border: 3px rgb(245, 255, 190);
-          margin: 0px;
-          background-color: #eca757;
-          color: rgb(0, 0, 0);
-          flex: wrap;
-          text-align: center;
-        }
-        .intro{
-          flex:auto;
-          padding: 50px;
-          border: 3px rgb(245, 255, 190);
-          margin: 0px;
-          background-color: #eca757;
-          color: rgb(0, 0, 0);
-          flex: wrap;
-          text-align: center;
-        }
+      
   }  
+  .welcome {
+    border: 3px rgb(250, 255, 225);
+    margin: 0px;
+    padding: 3px;
+    background-color: #fadbb3;
+    color: rgb(0, 0, 0);
+    flex: wrap;
+    text-align: center;
+  }
       
     .footer {
     border: 3px rgb(245, 255, 190);
@@ -77,7 +62,7 @@
     flex: wrap;
     text-align: center;
   }
-  .form {
+         .form {
           flex: wrap;
           padding:50px;
           border: 3px rgb(252, 255, 233);
@@ -115,17 +100,25 @@
   <a href="food.html">Food</a> |
   <a href="cocktails.html">Cocktails</a> |
 </nav>
+<a id="skip-to-content"href="#content">Skip to Content</a>
 <header>
   <img src="../media/title.jpg" class= "homebanner" alt="board-memories"/> 
 </header>
 <body>
-  <a onclick="ThirdFunction()" href="">Click Here</a>
-    <a id="skip-to-content"href="#content">Skip to Content</a>
-        
-    <header>
-        <img src="/project/media/Cameron.jpg" class= "homebanner" alt="family"> 
-    </header>
 
+  <article class="welcome"> 
+<h1>Welcome to my website!</h1>
+<p id="welcome"> </p>
+<button type="button" onclick="myFunction()">Author</button>
+
+<script>
+function myFunction() {
+  document.getElementById("welcome").innerHTML = "Cameron Stepec";
+}
+
+</script>
+</article>
+   
     <section>
   <article class="intro">
         <h1> Cameron's Cocktails and Apa's Recipes</h1>
