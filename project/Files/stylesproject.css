@@ -17,11 +17,3 @@ footer {
   flex: wrap;
   text-align: center;
 }
-
-
-
-eggplant 
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 5px;
-float: wrap;
